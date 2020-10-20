@@ -27,16 +27,6 @@
 
 	<ItemGroup>
 		<PackageReference Include="CCX.Common.Entities" Version="1.0.0-d1" />
-		<PackageReference Include="CCX.Common.Shared" Version="1.0.0-a6" />
-		<PackageReference Include="CompareNETObjects" Version="4.67.0" />
-		<PackageReference Include="FluentValidation.AspNetCore" Version="9.3.0-preview2" />
-		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
-		<PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="5.0.0-rc.1.20451.17" />
-		<PackageReference Include="Microsoft.Extensions.Primitives" Version="5.0.0-rc.1.20451.14" />
-		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0-rc.1.20451.14" />
-		<PackageReference Include="System.Text.Json" Version="5.0.0-rc.1.20451.14" />
-		<PackageReference Include="Toolbelt.EntityFrameworkCore.IndexAttribute" Version="5.0.0" />
-		<PackageReference Include="System.CodeDom" Version="5.0.0-rc.1.20451.14" />
 	</ItemGroup>
 
 	<ItemGroup>
