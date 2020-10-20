@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<LangVersion>preview</LangVersion>
+		<Nullable>enable</Nullable>
+		<Authors>CleanCodeX</Authors>
+		<Company>CleanCodeX</Company>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>1.0.0-c9</Version>
+		<Description>Provides common app entities, helpers, extensions.</Description>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageId>CCX.Common.Entities.I32</PackageId>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile></DocumentationFile>
+		<GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+		<Optimize>false</Optimize>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectCapability Include="DynamicDependentFile" />
+		<ProjectCapability Include="DynamicFileNesting" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CCX.Common.Shared" Version="1.0.0-a6" />
+		<PackageReference Include="CompareNETObjects" Version="4.67.0" />
+		<PackageReference Include="FluentValidation.AspNetCore" Version="9.3.0-preview2" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+		<PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="5.0.0-rc.1.20451.17" />
+		<PackageReference Include="Microsoft.Extensions.Primitives" Version="5.0.0-rc.1.20451.14" />
+		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0-rc.1.20451.14" />
+		<PackageReference Include="System.Text.Json" Version="5.0.0-rc.1.20451.14" />
+		<PackageReference Include="Toolbelt.EntityFrameworkCore.IndexAttribute" Version="5.0.0" />
+		<PackageReference Include="System.CodeDom" Version="5.0.0-rc.1.20451.14" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Common.Entities\Common.Entities.csproj" />
+	</ItemGroup>
+
+</Project>
