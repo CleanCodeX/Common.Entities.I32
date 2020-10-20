@@ -8,7 +8,7 @@
 		<Company>CleanCodeX</Company>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Version>1.0.0-a1</Version>
-		<Description>Provides common app entities, helpers, extensions.</Description>
+		<Description>Provides Int32 variations of lib Common.Entities</Description>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 		<PackageId>CCX.Common.Entities.I32</PackageId>
