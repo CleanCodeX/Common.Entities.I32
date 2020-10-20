@@ -1,6 +1,6 @@
 ﻿using Common.Entities.Models;
 
-namespace Common.Entities.I32.Contracts
+namespace Common.Entities.I32
 {
 	/// <inheritdoc cref="IIsDeletedEntity" />
 	/// <inheritdoc cref="IModifiedAtEntityTyped" />

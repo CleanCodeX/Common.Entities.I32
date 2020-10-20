@@ -1,5 +1,4 @@
-﻿using Common.Entities.I32.Contracts;
-using Common.Entities.Models.Bases;
+﻿using Common.Entities.Models.Bases;
 
 namespace Common.Entities.I32.Bases
 {
