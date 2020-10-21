@@ -7,10 +7,10 @@ namespace Common.Entities.I32.ListEntries
 	{ }
 
 	/// <inheritdoc />
-	public interface IListDependencyWithTypesTyped : IListDependencyWithTypes<int>
+	public interface IListDependencyTyped : IHasDependencyIdsTyped, IHasIdTyped
 	{ }
 
 	/// <inheritdoc />
-	public interface IListDependencyTyped : IHasDependencyIds<int>
+	public interface IListDependencyWithTypesTyped : IListDependencyWithTypes<int>, IListDependencyTyped
 	{ }
 }

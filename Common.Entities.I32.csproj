@@ -7,7 +7,7 @@
 		<Authors>CleanCodeX</Authors>
 		<Company>CleanCodeX</Company>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.0.0-a4</Version>
+		<Version>1.0.0-a5</Version>
 		<Description>Provides Int32 variations of lib Common.Entities</Description>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>

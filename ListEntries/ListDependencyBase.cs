@@ -1,10 +1,9 @@
-﻿using System;
-using Common.Entities.Models.ListEntries;
+﻿using Common.Entities.Models.ListEntries;
 
 namespace Common.Entities.I32.ListEntries
 {
 	/// <inheritdoc />
-    public abstract record ListDependencyBase : ListDependencyBase<int>, IListDependencyTyped
+	public abstract record ListDependencyBase : ListDependencyBase<int>, IListDependencyTyped
     { }
 
 	/// <inheritdoc />
