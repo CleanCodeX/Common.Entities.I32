@@ -1,8 +1,7 @@
 ﻿using System;
-using Common.Entities.I32.ListEntries;
 using Common.Entities.Models.ListEntries;
 
-namespace Common.Entities.I32.Bases.Modifiable
+namespace Common.Entities.I32.ListEntries
 {
 	/// <inheritdoc />
     public abstract record ListDependencyBase : ListDependencyBase<int>, IListDependencyTyped
